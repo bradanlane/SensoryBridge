@@ -1,3 +1,12 @@
+_This fork contains support for the LumosStick and LumosRing from Bradán Lane STUDIO.
+To use either hardware device, uncomment one of hte `#define` lines near the top of `SENSORY_BRIDGE_FIRMWARE.ino`.
+The LumosStick and LumosRing have two buttons - one is mapped to NoiseCalibration and the other to MODE selection.
+The LumosStick has to rendering modes - row-first and column-first. A double-click of the MODE button toggles the order._
+
+_Please read the section on GPIO pin assignments in `constants.h` for which pins are used._
+
+_In addition to basic hardware support for the LumosStick and LumosRing, new commands have been added to the serial interface._
+
 https://github.com/connornishijima/SensoryBridge/assets/5051485/211737f4-0c69-49b0-99c4-2fa3d6a7a65e
 
 # SENSORY BRIDGE is **DIFFERENT**
